@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fcebf0;
+}
+
+.titles{
+    color: #990632;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7d7e1;
+    height: 100px;
+}
+
+#header h1{
+    text-align:center;
+    font-family: Caprasimo;
+}
+
+#navigation{
+    display: flex;
+    align-items: center;
+    background-color: #e37d9b;
+    height: 40px;
+    color: white;
+}
+#navigation ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#navigation li{
+    font-family: "Roboto Slab";
+    display: inline;
+    border-right: solid white;
+    padding: 10px;
+}
+#navigation a{
+    color: white;
+    text-decoration: none;
+}
+#navigation a:hover{
+    color:#e6c1ca;
+}
+
+#blogs {
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+#blogs h3{
+    font-family: "Yanone Kaffeesatz";
+    font-size: 40px;
+}
+#blogs p{
+    padding: 10px;
+    font-family: "Roboto Slab";
+    color: #c02960;
+}
+#blogs img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#blogs a{
+    color:#990632
+}
+
+#extras{
+    float: left;
+    width:30%;
+    padding: 20px;
+}
+#extras ul{
+    padding-top: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: "Roboto Slab";
+    padding: 10px;
+    background-color: #f76589;
+}
+#extras a{
+    color: #ffffff;
+}
+#extras a:hover{
+    color:#e4a3b3;
+}
+
+
+#pie{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7d7e1;
+    height: 100px;
+
+    font-family: "Roboto Slab";
+    color: #c02960;
+    font-size: 15px;
+}
